@@ -1,7 +1,50 @@
-.footer {
-  float: left;
+html {
+  text-align: center;
+  font-family: Helvetica
 }
 
-html {
-  text-align: center
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero, .mini-hero {
+    background-image: url("../images/the-flatiron-building.png");
+}
+
+.btn-nav {
+  font-size: 18px;
+  color: white;
+}
+
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.mini-hero {
+    color: white;
+}
+
+.footer {
+  background-color: dimgrey;
+  text-align: left;
+}
+
+.footer p {
+  font-size: 11px;
+}
+
+
 }
